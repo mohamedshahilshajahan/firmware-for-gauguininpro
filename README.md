@@ -49,7 +49,9 @@
 <h2></h2>
 <h3>## Firmware Not Working ##</h3>
 <p>**If you encounter an issue with the official firmware being incompatible<br> (e.g., "This package is for gauguin. This is gauguininpro"),<br> like shown in the image below, follow the steps below to make necessary tweaks.**<br><br>
-<img src="https://i.postimg.cc/XqccmkjW/error.png" alt="Firmware Error" style="max-width: 100%; height: auto;">
+<a href="https://xdaforums.com/t/rom-14-official-pixelos-aosp-stable-23-12-2023.4456563/post-89234133" target="_blank">
+  <img src="https://i.postimg.cc/XqccmkjW/error.png" alt="Official firmware website" style="max-width: 100%; height: auto;" />
+</a>
 </p>
 <h3>## I already Tweaked the latest Indian firmware for Mi 10i 5G (gauguinpro) ##</h3>
 <p>
