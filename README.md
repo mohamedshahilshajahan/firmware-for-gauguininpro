@@ -1,17 +1,20 @@
-<h1># Xiaomi Mi 10i 5G (gauguininpro) Custom Firmware for Custom ROM Installation Guide</h1>
-<h3>## Disclaimer</h3>
+<h1># Xiaomi Mi 10i 5G (gauguininpro) Custom Firmware for Custom ROM Installation Guide #</h1>
+<h3>## Disclaimer ##</h3>
 <p>**Note:** Flashing custom ROMs involves potential risks, and you may void your warranty. Follow these instructions at your own risk. Ensure that you understand the process and have backed up essential data before proceeding.<br>
 * I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed.<br> Please do some research if you have any concerns about features included in this ROM before flashing it!<br> YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.
 </p>
 <h2></h2>
-<h3>## Prerequisites</h3>
+<h3>## Prerequisites ##</h3>
 <h4>1. Unlock the bootloader of your Xiaomi Mi 10i 5G.<br><br>
 2. Download the latest <a href="https://developer.android.com/tools/releases/platform-tools">platform-tools (ADB tools)</a> on your PC. <br><br>
-3. Visit the official Xiaomi firmware updater website: <a href="https://xiaomifirmwareupdater.com/firmware/gauguin/">Xiaomi Firmware Updater</a> and Download the latest MIUI fastboot firmware for your region. <br><br>
+3. Visit the official Xiaomi firmware website: <a href="https://xiaomifirmwareupdater.com/firmware/gauguin/">Gauguin Official Firmware</a> and Download the latest MIUI fastboot firmware for your region. <br><br>
+<a href="https://xiaomifirmwareupdater.com/firmware/gauguin/" target="_blank">
+  <img src="https://i.postimg.cc/Y0nk6w6J/official.png" alt="Official firmware website" style="max-width: 100%; height: auto;" />
+</a><br><br>
 4. Download the latest custom recovery for a particular latest custom ROM.
 </h4>
 <h2></h2>
-<h3>## Installing/Boot Custom Recovery</h3>
+<h3>## Installing/Boot Custom Recovery ##</h3>
 <p>1. Boot your Xiaomi Mi 10i 5G into fastboot mode (bootloader mode).<br><br>
 2. Connect your device to your PC.<br><br>
 3. Open a command prompt or terminal window on downloaded platform-tools {ADB tools} directory.<br><br>
@@ -44,11 +47,11 @@
    Replace `<path/to/firmware.zip>` with the actual path to the official firmware image.
 </p>
 <h2></h2>
-<h3>## Firmware Not Working</h3>
-<p>**If you encounter an issue with the official firmware being incompatible (e.g., "This package is for gauguin. This is gauguininpro"),<br> like shown in the image below, follow the steps below to make necessary tweaks.**<br>
+<h3>## Firmware Not Working ##</h3>
+<p>**If you encounter an issue with the official firmware being incompatible<br> (e.g., "This package is for gauguin. This is gauguininpro"),<br> like shown in the image below, follow the steps below to make necessary tweaks.**<br><br>
 <img src="https://i.postimg.cc/XqccmkjW/error.png" alt="Firmware Error" style="max-width: 100%; height: auto;">
 </p>
-<h3>## I already Tweaked the latest Indian firmware for Mi 10i 5G (gauguinpro)</h3>
+<h3>## I already Tweaked the latest Indian firmware for Mi 10i 5G (gauguinpro) ##</h3>
 <p>
 Download the tweaked firmware for gauguinpro from the following links:
 
@@ -56,7 +59,7 @@ Download the tweaked firmware for gauguinpro from the following links:
 * [Dropbox](https://www.dropbox.com/scl/fi/cm2uvxlyqohlzwrin3kcj/firmware.zip?rlkey=l8vcgjdmb10ob113jxm3becaa&dl=0)
 </p>
 <h2></h2>
-<h2>## How I Tweak the Firmware</h2>
+<h3>## How I Tweak the Firmware ##</h3>
 <h3>1. Extract the downloaded firmware ZIP file.<br>
 <br>2. Navigate to the extracted firmware folder.<br>
   
@@ -68,7 +71,21 @@ Download the tweaked firmware for gauguinpro from the following links:
 <br>6. Change instances of 'gauguin' to 'gauguininpro' in the `metadata` file.<br>
 <br>7. Save the changes.
 </h3>
-<h2>About me:</h2>
+<h2></h2>
+<h3>## Flashing the Tweaked Firmware ##</h3>
+<p>1. Boot your Xiaomi Mi 10i 5G into fastboot mode (bootloader mode).<br>
+<br>2. Connect your device to your PC.<br>
+<br>3. Open a command prompt or terminal window on downloaded platform-tools {ADB tools} directory.<br>
+<br>4. On Custom Recovery, go to Apply update > Apply from ADB.<br>
+<br>5. Flash the firmware through ADB sideload by running: 
+         
+    adb sideload <path/to/firmware.zip>
+
+  Replace `<path/to/firmware.zip>` with the actual path to the tweaked firmware image.<br>
+<br>6. Once the flashing is complete, now flash the downloaded custom ROM.
+</p>
+<h2></h2>
+<h3>About me:</h3>
 <h1 align="center" href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=F7DC00&center=true&vCenter=true&random=false&width=550&height=32&lines=Hi+%F0%9F%91%8B%2C+I'm+Mohamed+Shahil" alt="Typing SVG" /></h1>
 
 <h3 align="center">A passionate software enthusiast diving into the exciting world of development!<br>
