@@ -101,7 +101,7 @@ Download the tweaked firmware for gauguininpro from the following links:
   
  <h2 align="center"> #CodeNewbie #Python #Java #Cplusplus #SoftwareDevelopment #TechEnthusiast</h2>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=mohamedshahilshajahan&label=Profile%20views&color=blueviolet&style=flat" alt="mohamedshahilshajahan" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=mohamedshahilshajahan&label=Profile%20views&color=brightgreen&style=flat" alt="mohamedshahilshajahan" /> </p>
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 - 📫 You can contact me at **mohamedshahilshajahan@gmail.com**
 
