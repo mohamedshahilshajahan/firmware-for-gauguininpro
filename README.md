@@ -3,13 +3,49 @@
 <p>**Note:** Flashing custom ROMs involves potential risks, and you may void your warranty. Follow these instructions at your own risk. Ensure that you understand the process and have backed up essential data before proceeding.<br>
 * I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed.<br> Please do some research if you have any concerns about features included in this ROM before flashing it!<br> YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.
 </p>
-
+<h2></h2>
 <h3>## Prerequisites</h3>
-<h4>1. Unlock the bootloader of your Xiaomi Mi 10i 5G.<br>
-2. Download the latest <a href="https://developer.android.com/tools/releases/platform-tools">platform-tools (ADB tools)</a> on your PC. <br>
-3. Visit the official Xiaomi firmware updater website: <a href="https://xiaomifirmwareupdater.com/firmware/gauguin/">Xiaomi Firmware Updater</a> and Download the latest MIUI fastboot firmware for your region. <br>
+<h4>1. Unlock the bootloader of your Xiaomi Mi 10i 5G.<br><br>
+2. Download the latest <a href="https://developer.android.com/tools/releases/platform-tools">platform-tools (ADB tools)</a> on your PC. <br><br>
+3. Visit the official Xiaomi firmware updater website: <a href="https://xiaomifirmwareupdater.com/firmware/gauguin/">Xiaomi Firmware Updater</a> and Download the latest MIUI fastboot firmware for your region. <br><br>
 4. Download the latest custom recovery for a particular latest custom ROM.
 </h4>
+<h2></h2>
+<h3>## Installing/Boot Custom Recovery</h3>
+<p>1. Boot your Xiaomi Mi 10i 5G into fastboot mode (bootloader mode).<br><br>
+2. Connect your device to your PC.<br><br>
+3. Open a command prompt or terminal window on downloaded platform-tools {ADB tools} directory.<br><br>
+4. Verify the proper connection of your device in fastboot mode with the command:
+  
+    fastboot devices  
+<br>5. Use the following command to temporarily boot into the custom recovery: 
+  
+    fastboot boot <path-to-custom-recovery-image>
+  
+  Replace `path-to-custom-recovery-image` with the actual path to the custom recovery image.<br>
+<br>
+<h3>(or)</h3>
+<br>
+6. Use the following command to Install the custom recovery: 
+ 
+    fastboot flash recovery <path-to-custom-recovery-image>
+    
+   Replace `<path-to-custom-recovery-image>` with the actual path to the custom recovery image.<br>
+<br>
+7. On Custom Recovery, go to Apply update > Apply from ADB.<br><br>
+8. Ensure the correct connection of your device in adb mode by executing the command: 
+
+    adb devices
+<br>    
+9. Flash the firmware through ADB sideload by running
+
+    adb sideload <path/to/firmware.zip>
+
+   Replace `<path/to/firmware.zip>` with the actual path to the official firmware image.
+</p>
+<h2></h2>
+
+
 
 <h2>About me:</h2>
 <h1 align="center" href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=F7DC00&center=true&vCenter=true&random=false&width=550&height=32&lines=Hi+%F0%9F%91%8B%2C+I'm+Mohamed+Shahil" alt="Typing SVG" /></h1>
