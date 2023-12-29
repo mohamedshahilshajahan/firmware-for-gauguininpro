@@ -53,9 +53,9 @@
   <img src="https://i.postimg.cc/XqccmkjW/error.png" alt="Official firmware website" style="max-width: 100%; height: auto;" />
 </a>
 </p>
-<h3>## I already Tweaked the latest Indian firmware for Mi 10i 5G (gauguinpro) ##</h3>
+<h3>## I already Tweaked the latest Indian firmware for Mi 10i 5G (gauguininpro) ##</h3>
 <p>
-Download the tweaked firmware for gauguinpro from the following links:
+Download the tweaked firmware for gauguininpro from the following links:
 
 * [Google Drive](https://drive.google.com/file/d/1v_b1hnwgxA_X7NMkSdaHDLGC_eM1aFka/view?usp=sharing)
 * [Dropbox](https://www.dropbox.com/scl/fi/cm2uvxlyqohlzwrin3kcj/firmware.zip?rlkey=l8vcgjdmb10ob113jxm3becaa&dl=0)
