@@ -47,11 +47,27 @@
 <h3>## Firmware Not Working</h3>
 <p>**If you encounter an issue with the official firmware being incompatible (e.g., "This package is for gauguin. This is gauguininpro"),<br> like shown in the image below, follow the steps below to make necessary tweaks.**<br>
 <img src="https://i.postimg.cc/XqccmkjW/error.png" alt="Firmware Error" style="max-width: 100%; height: auto;">
-
-## I already Tweaked the latest Indian firmware for Mi 10i 5G (gauguinpro)
-Download from my [GitHub Repository Releases](<link-to-your-releases-page>).
 </p>
+<h3>## I already Tweaked the latest Indian firmware for Mi 10i 5G (gauguinpro)</h3>
+<p>
+Download the tweaked firmware for gauguinpro from the following links:
 
+* [Google Drive](https://drive.google.com/file/d/1v_b1hnwgxA_X7NMkSdaHDLGC_eM1aFka/view?usp=sharing)
+* [Dropbox](https://www.dropbox.com/scl/fi/cm2uvxlyqohlzwrin3kcj/firmware.zip?rlkey=l8vcgjdmb10ob113jxm3becaa&dl=0)
+</p>
+<h2></h2>
+<h2>## How I Tweak the Firmware</h2>
+<h3>1. Extract the downloaded firmware ZIP file.<br>
+<br>2. Navigate to the extracted firmware folder.<br>
+  
+<br>3. Open the `meta-inf/com/google/android/updater-script` file using a text editor (e.g., 'notepad++').<br><br>
+<img src="https://i.postimg.cc/4ykTWMzL/updater-script.png" alt="updater-script image" style="max-width: 100%; height: auto;"><br>
+<br>4. Change instances of 'gauguin' to 'gauguininpro' in the `updater-script` file.<br>
+<br>5. Open the `meta-inf/com/android/metadata` file using a text editor (e.g., 'notepad++').<br><br>
+<img src="https://i.postimg.cc/QtW3ksWK/metadata.png" alt="metadata image" style="max-width: 100%; height: auto;"><br>
+<br>6. Change instances of 'gauguin' to 'gauguininpro' in the `metadata` file.<br>
+<br>7. Save the changes.
+</h3>
 <h2>About me:</h2>
 <h1 align="center" href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=F7DC00&center=true&vCenter=true&random=false&width=550&height=32&lines=Hi+%F0%9F%91%8B%2C+I'm+Mohamed+Shahil" alt="Typing SVG" /></h1>
 
