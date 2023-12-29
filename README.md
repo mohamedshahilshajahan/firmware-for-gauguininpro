@@ -44,8 +44,13 @@
    Replace `<path/to/firmware.zip>` with the actual path to the official firmware image.
 </p>
 <h2></h2>
+<h3>## Firmware Not Working</h3>
+<p>**If you encounter an issue with the official firmware being incompatible (e.g., "This package is for gauguin. This is gauguininpro"),<br> like shown in the image below, follow the steps below to make necessary tweaks.**<br>
+<img src="https://i.postimg.cc/XqccmkjW/error.png" alt="Firmware Error" style="max-width: 100%; height: auto;">
 
-
+## I already Tweaked the latest Indian firmware for Mi 10i 5G (gauguinpro)
+Download from my [GitHub Repository Releases](<link-to-your-releases-page>).
+</p>
 
 <h2>About me:</h2>
 <h1 align="center" href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=F7DC00&center=true&vCenter=true&random=false&width=550&height=32&lines=Hi+%F0%9F%91%8B%2C+I'm+Mohamed+Shahil" alt="Typing SVG" /></h1>
