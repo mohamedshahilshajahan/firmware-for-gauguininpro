@@ -83,7 +83,8 @@ Download the tweaked firmware for gauguininpro from the following links:
          
     adb sideload <path/to/firmware.zip>
 
-  Replace `<path/to/firmware.zip>` with the actual path to the tweaked firmware image.<br>
+  Replace `<path/to/firmware.zip>` with the actual path to the tweaked firmware image.<br><br>
+<img src="https://i.postimg.cc/HjGWQyc7/firmwarecompleted.png" alt="Firmware Installed Successfully" style="max-width: 100%; height: auto;" /><br>
 <br>6. Once the flashing is complete, now flash the downloaded custom ROM.
 </p>
 <h2></h2>
