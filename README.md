@@ -57,7 +57,8 @@
 <p>
 Download the tweaked firmware for gauguininpro from the following links:
 
-* [Google Drive](https://drive.google.com/file/d/1v_b1hnwgxA_X7NMkSdaHDLGC_eM1aFka/view?usp=sharing)
+* [Mediafire](https://www.mediafire.com/file/qd6gohdh17skvfy/firmware.zip/file)
+* [GDrive](https://drive.google.com/file/d/1mb8QdpCQxMlF8zmnSSe7wgePzBRxqUM9/view?usp=sharing)
 * [Dropbox](https://www.dropbox.com/scl/fi/cm2uvxlyqohlzwrin3kcj/firmware.zip?rlkey=l8vcgjdmb10ob113jxm3becaa&dl=0)
 </p>
 <h2></h2>
